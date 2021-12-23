@@ -40,7 +40,7 @@ public class GooglePageTest {
 		    // Write code here that turns the phrase above into concrete actions
 		 //   throw new io.cucumber.java.PendingException();
 			WebElement searchBox = driver.findElement(By.name("q"));
-			searchBox.sendKeys("Java Tutorial");
+			searchBox.sendKeys("Java Tutorial Page");
 			searchBox.submit();
 		}
 		@Then("Should dislay Java Result Page")
